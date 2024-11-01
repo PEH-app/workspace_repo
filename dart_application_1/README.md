@@ -6,6 +6,11 @@ ShoppingMall console program
 </p>
     <img alt="브로셔 이미지" src="https://github.com/PEH-app/workspace_repo/blob/main/dart_application_1/assets/image/11.png"/>
 
+     
+<b> 🔼🔼🔼 제 컴퓨터에서 run 결과를 캡쳐하였습니다.  🔼🔼🔼 </b>
+
+<br/><br/>
+
 ## 프로젝트 개요
 
 ### “ShoppingMall" 은 필수기능 + 도전기능(1번까지)이 적용된 콘솔 프로그램 입니다.
@@ -36,6 +41,8 @@ dart 문법 기초
 24/10/28 ~ 24/11/1
 
 <br/>
+
+
 
 <br/>
 
