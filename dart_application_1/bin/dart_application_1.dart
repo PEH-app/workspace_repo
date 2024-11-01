@@ -92,7 +92,7 @@ void main(List<String> arguments) {
 
   while (!quit) {
     printShopping();
-    String? str = stdin.readLineSync();
+    String? str = stdin.readLineSync()!;
 
     switch (str) {
       case '1':
@@ -106,7 +106,7 @@ void main(List<String> arguments) {
         break;
       case '4':
         print('[5] 정말 종료하시겠습니까?');
-        String? str2 = stdin.readLineSync();
+        String? str2 = stdin.readLineSync()!;
         if (str2 == '5') {
           quit = true;
           print('이용해 주셔서 감사합니다 ~  안녕히 가세요 !');
