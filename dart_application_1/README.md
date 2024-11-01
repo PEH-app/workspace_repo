@@ -1,5 +1,3 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
 
 <h1 align="center">
 ShoppingMall console program
@@ -47,7 +45,7 @@ dart 문법 기초
 
 - 문제 : 장바구니에 담을 상품 입력 시 정상 입력임에도 작동이 되지 않음
 - 해결 시도: print해보니 입력한 한글 글자가 깨져서 입력됨
-- 해결책
-  (1) 구글 검색 결과 프롬프트 자체 encoding 문제일 수 있다며 chcp 949를 chcp 65001로 입력하여 UTF-8로 변경해야 함을 알게 됨
-  (2) 그래도 되지 않아서 또다시 검색 결과 stdin.readLineSync(encoding:Encoding.getByName('utf-8')!); 이런 코드를 알게 됨
-  (3) 각자 해봤음에도 되지않아서 어려움을 겪던 와중에 두개를 동시에 적용해보니 한글 깨짐이 해결됨
+- 해결책 <br/>
+  (1) 구글 검색 결과 프롬프트 자체 encoding 문제일 수 있다며 chcp 949를 chcp 65001로 입력하여 UTF-8로 변경해야 함을 알게 됨<br/>
+  (2) 그래도 되지 않아서 또다시 검색 결과 stdin.readLineSync(encoding:Encoding.getByName('utf-8')!); 이런 코드를 알게 됨<br/>
+  (3) 각자 해봤음에도 되지않아서 어려움을 겪던 와중에 두개를 동시에 적용해보니 한글 깨짐이 해결됨<br/>
