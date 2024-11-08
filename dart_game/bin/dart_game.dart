@@ -197,7 +197,7 @@ void saveResult(Character character, String result) {
 
   if (input == 'y') {
     try {
-      final file = File('asset/result.txt');
+      final file = File('assets/result.txt');
       file.writeAsStringSync(
           '캐릭터 이름: ${character.name}, 남은 체력: ${character.health}, 게임 결과: $result\n',
           mode: FileMode.append);
@@ -213,7 +213,7 @@ void saveResult(Character character, String result) {
 
 Character loadCharacterStats() {
   try {
-    final file = File('asset/characters.txt');
+    final file = File('assets/characters.txt');
     if (!file.existsSync())
       throw FileSystemException('characters.txt 파일이 존재하지 않습니다.');
 
@@ -235,7 +235,7 @@ Character loadCharacterStats() {
 
 List<Monster> loadMonsterStats(Character character) {
   try {
-    final file = File('asset/monsters.txt');
+    final file = File('assets/monsters.txt');
     if (!file.existsSync())
       throw FileSystemException('monsters.txt 파일이 존재하지 않습니다.');
 
