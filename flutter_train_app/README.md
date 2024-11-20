@@ -24,10 +24,10 @@
 ═══ Exception caught by widgets library ═══
 Incorrect use of ParentDataWidget.
 
-UI를 구성하는 과정에서 오류가 발생함
+UI를 구성하는 과정에서 오류가 발생함 <br>
 이 오류는 특정 위젯들이 올바른 부모 위젯 내에 배치되지 않았을때 나타남
 
-##### 오류 원인
+#### 오류 원인
 
-1. <b>Expanded나 Flexible 위젯</b>이 Row, Column, Flex 같은 위젯의 직접적인 자식이 아닐 때 발생
+1. <b>Expanded나 Flexible 위젯</b>이 Row, Column, Flex 같은 위젯의 직접적인 자식이 아닐 때 발생.
 2. <b>Positioned 위젯</b>이 Stack의 직접적인 자식이 아닐 때 발생.
