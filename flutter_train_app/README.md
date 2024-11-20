@@ -21,7 +21,7 @@
 
 ### <트러블 슈팅>
 
-═══ Exception caught by widgets library ═══
+═══ Exception caught by widgets library ═══ <br>
 Incorrect use of ParentDataWidget.
 
 UI를 구성하는 과정에서 오류가 발생함 <br>
